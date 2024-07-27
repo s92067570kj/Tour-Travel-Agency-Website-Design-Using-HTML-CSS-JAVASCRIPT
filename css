@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 80%;
+    height: 95vh;
+    margin: auto;
+    position: relative;
+}
+
+header nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+header nav h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li:last-child {
+    background: #000;
+    border-radius: 20px;
+}
+
+header nav ul li:last-child a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #121213;
+    font-size: 13px;
+    font-weight: 500;
+    transition: color 0.3s linear;
+}
+
+header nav ul li a:hover {
+    color: gray;
+}
+
+header nav .bi-three-dots {
+    display: none;
+}
+
+header .content {
+    width: 100%;
+    height: calc(100% - 70px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: url('img/background.jpg') no-repeat center center/cover;
+    border-radius: 10px;
+}
+
+header .cont_bx {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header .cont_bx h1 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+header .cont_bx p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(241, 241, 241);
+}
+
+header .cont_bx button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #000;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+header .cont_bx button:hover {
+    background: white;
+    color: black;
+}
+
+header .cont_bx .search_bx {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+header .cont_bx .search_bx input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+header .cont_bx .search_bx .card {
+    flex: 1 1 200px;
+    max-width: 200px;
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+}
+
+header .cont_bx .search_bx .card h4 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: #201539; /* Adjusted color as per your preference */
+}
+
+header .cont_bx .search_bx .card h4 .bi {
+    margin-left: 5px; /* Adjusted for proper spacing */
+    font-size: 13px;
+    transition: 0.3s linear;
+}
+
+header .cont_bx .search_bx .card input {
+    margin-top: 3px;
+    padding: 5px;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+
+header .cont_bx .search_bx input[type="button"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #000;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition:  0.3s linear;
+}
+
+header .cont_bx .search_bx input[type="button"]:hover {
+    background: white;
+    color: black;
+}
